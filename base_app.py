@@ -147,7 +147,7 @@ def main():
 		}
 	
 		
-	if st.button("Classify"):
+		if st.button("Classify"):
 			# Transforming user input with vectorizer
 			vect_text = tweet_cv.transform([tweet_text]).toarray()
 			# Load your .pkl file with the model of your choice + make predictions
